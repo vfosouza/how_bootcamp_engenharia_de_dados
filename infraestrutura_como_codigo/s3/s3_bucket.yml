@@ -1,0 +1,9 @@
+Resources:
+  MeuPrimeiroBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: meu-primeiro-bucket-vfosouza-2020-11-06
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
